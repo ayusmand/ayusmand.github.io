@@ -1,0 +1,98 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <!--
+        Script for the Root tag "ayusman-prod-us-test-1 - Pixel 2032"
+        -->
+        <script async type="text/javascript">
+            function zync_call() {
+                var z = document.createElement("script");
+                var zmpID="ayusman-prod-us-test-1";
+                var cache_buster=Date.now();
+                var PageUrl=encodeURIComponent(window.top.location.href).replace(/[!'()~]/g, escape).replace(/\*/g, "%2A");
+
+                var z_src = "https://live.rezync.com/sync?c=16b6410431b6374e780104abb0443ca8&p=1acee75a2305d2ccb186b48492f9551a&k=ayusman-prod-us-test-1-pixel-2032&zmpID="+zmpID+"&cache_buster="+cache_buster+"&PageUrl="+PageUrl;
+                z.setAttribute("src", z_src);
+                document.body.appendChild(z);
+            }
+
+            if (['complete', 'interactive'].indexOf(document.readyState) >= 0) {
+                zync_call();
+            } else {
+                window.addEventListener("DOMContentLoaded", function(){
+                    zync_call();
+                });
+            }
+        </script>
+
+        <!--
+        Script for Tag Redirects
+        Tag redirect name: "Liveintent"
+        Append to: "Body"
+        -->
+        <script async type="text/javascript">
+            function li_call() {
+                var l = document.createElement("img");
+                var cache_buster = Date.now();
+
+                var l_src = "https://live.rezync.com/sync?c=0aa2530f29e4f4a05b5d5d9bb35d60c2&p=93c1662463a616a7155169889dd99651&k=lionly&cache_buster="+cache_buster;
+                l.setAttribute("src", l_src);
+                l.setAttribute("height", "1px");
+                l.setAttribute("width", "1px");
+                l.setAttribute("style", "display: none;");
+                document.body.appendChild(l);
+            }
+
+            if (['complete', 'interactive'].indexOf(document.readyState) >= 0) {
+                li_call();
+            } else {
+                window.addEventListener("DOMContentLoaded", function(){
+                    li_call();
+                });
+            }
+        </script>
+
+        <!--
+        Script for Tag Redirects
+        Tag redirect name: "Zeta 1st Party Data (P13N)"
+        Append to: "Body"
+        -->
+        <script>
+            var SITEID='{zmpID}';
+            //var SITEID='ayusman-prod-us-test-1';
+            (function(b, t, r, a, i, n) {
+                b['bt']=b['bt'] || function() {
+                    (b['_bt']=b['_bt']||[]).push(arguments);
+                },
+                i = t.createElement(r),
+                n = t.getElementsByTagName(r)[0];
+                i.async = 1;
+                i.src = a;
+                n.parentNode.insertBefore(i, n);
+            })(
+                window,
+                document,
+                'script',
+                'https://cdn.boomtrain.com/p13n/'+SITEID+'/p13n.min.js'
+            );
+            bt('initialize', SITEID, {externalIds: {zync: '{zync_cookie}'}});
+        </script>
+        <pre>
+            Account name: ayusman-prod-us-test-1
+            Account domain: foobar.fictional.com
+            Site ID: ayusman-prod-us-test-1
+            Account type: production
+            Parent account: -
+            Primary industry: Apparel and Accessories - Accessories
+            Company name: ayusman-prod-us-test-1
+            Company description: -
+            Company address: 
+                123 Canal St.
+                Seattle, Washington 98101
+                United States
+            Timezone: US/Pacific
+            Pixels: ayusman-prod-us-test-1 - Pixel 2032 (2 subpixels)
+        </pre>
+    </body>
+</html>
