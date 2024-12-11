@@ -1,6 +1,6 @@
 Account Info
     Account name: ayusman-phoneix-test-1
-    Account domain: foo.bar.com
+    Account domain: ayusmand.github.io
     Site ID: ayusman-phoneix-test-1
     Account type: production
     Parent account: -

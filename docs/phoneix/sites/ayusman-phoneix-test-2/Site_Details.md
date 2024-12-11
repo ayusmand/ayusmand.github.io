@@ -1,7 +1,7 @@
 Account Info
     Created: 30 Nov 2024
     Account name: ayusman-phoneix-test-2
-    Account domain: plum-nadeen-86.tiiny.site
+    Account domain: ayusmand.github.io --> (was plum-nadeen-86.tiiny.site)
     Site ID: ayusman-phoneix-test-2
     Account type: production
     Parent account: -
